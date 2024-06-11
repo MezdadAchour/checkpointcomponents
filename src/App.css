@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+/* Styles de la carte de produit */
+.product-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details {
+  padding: 2rem;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 3rem;
+}
+
+.greeting-image {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
